@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Todo Web App</title>
+</head>
+<body>  
+    <div class="todo">
+        <h2>To-Do List</h2>
+        <div class="input">
+            <input class="input-field" type="text" placeholder="Add a new todo" id="todoInput">
+            <button class="add-button" type="submit">Add</button>
+        </div>
+        <ul class="scroll">
+            <li id="todolist"></li>
+        </ul>
+        <div>
+            <hr class="counter" />
+            <div class="counter-container">
+                <p><span id="todoCount">0</span> Total items</p>
+                <button id="deleteButton">Delete All</button>
+            </div>
+           
+        </div>
+    </div>
+    <footer >
+        <div class="footer">
+            <p class="made-by">Made By</p>
+            <p class="author-name">Latish Adwani</p>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>
